@@ -1,0 +1,10 @@
+<template>
+  <template if:true={accountList}>
+    <template for:each={accountList} for:item="account">
+      <p key={account.Id}>{account.Name}</p>
+    </template>
+  </template>
+  <template if:true={errors}>
+    <p>Conexion Error!</p>
+  </template>
+</template>
