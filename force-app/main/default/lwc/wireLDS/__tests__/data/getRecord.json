@@ -1,0 +1,25 @@
+{
+  "fields": {
+    "Industry": {
+      "value": "Banking"
+    },
+    "Name": {
+      "value": "Company ABC"
+    },
+    "Owner": {
+      "displayValue": "Test User",
+      "value": {
+        "fields": {
+          "Name": {
+            "displayValue": null,
+            "value": "Test User"
+          }
+        }
+      }
+    },
+    "Phone": {
+      "displayValue": null,
+      "value": "867-5309"
+    }
+  }
+}
